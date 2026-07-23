@@ -1,7 +1,23 @@
 aid: aliena
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aliena.png
 name: Aliena
-description: Aliena is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Aliena is a Singapore-based space-technology company, incorporated in 2018, that designs
+  and manufactures compact electric propulsion systems for small satellites. Its MUSIC plasma thruster
+  line delivers high thrust-to-power ratios at very low power budgets with high specific impulse, enabling
+  small satellites to operate and sustain very low Earth orbit (VLEO) for high-resolution remote sensing.
+  Aliena is a hardware manufacturer with no public developer API, SDK, or developer portal; this API
+  Evangelist profile tracks the company as a 500 Global portfolio lead.
 url: https://raw.githubusercontent.com/api-evangelist/aliena/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +30,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Space
+- Satellites
+- Electric Propulsion
+- Aerospace
+- Hardware
+- Deep Tech
+- Singapore
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/aliena-domain-security.yml
 - type: Website
   url: https://aliena.sg
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
